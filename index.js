@@ -8,6 +8,7 @@ import {createFooterSection} from './client/pages/footer/shopping-footer.control
 
 import {createCaurocelComponent,caurocelConfig}  from './client/pages/caurocel/shopping-caurocel.controller.js';
 
+
 console.log("hello i am from index.js.....");
 
 //window.onload = onShoppingHomePageload();

@@ -1,11 +1,12 @@
 {
-    "items":[
+    "items":[{
+        "ethinic-wear": [
             {
                 "description":"SOLID GREEN COTTON T SHIRT",
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
             },
@@ -14,17 +15,18 @@
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
             }
-        ,       
+        ],
+        "formal-wear": [
              {
                 "description":"SOLID GREEN COTTON T SHIRT",
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
             },
@@ -33,17 +35,18 @@
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
-            },
-       
+            }
+        ],
+        "casual-wear": [
              {
                 "description":"SOLID GREEN COTTON T SHIRT",
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
             },
@@ -52,10 +55,12 @@
                 "style":"",
                 "color":"GREEN",
                 "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "img":"",
                 "size":"L",
                 "qty":""
             }
         ]
-    
+    }]
+
+
 }

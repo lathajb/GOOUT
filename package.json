@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "client": "webpack-dev-server --mode development",
     "server": "nodemon ./server/index.js --host 0.0.0.0",
-    "jsonserver": "json-server --port 7000 --routes ./server/data/routes.json --watch ./server/data/items.json",
+    "jsonserver": "json-server --port 7000 --routes ./server/data/routes.json --watch ./server/data/items.json ./server/data/cart.json",
     "dev": "concurrently \"npm run jsonserver\" \"npm run server\" \"npm run client\" "
   },
   "author": "J B Latha",

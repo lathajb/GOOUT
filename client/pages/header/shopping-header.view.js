@@ -1,6 +1,6 @@
 import { htmlToTemplate } from "../util/shopping-home.utility"
 
-export const getHeaderHtml = () => {
+export const getHeaderHtml = (data) => {
     const headerHtml = `
     <div class="navbarsection">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -22,7 +22,8 @@ export const getHeaderHtml = () => {
      </div>
     
       <a id="cartId" href="#" class="btn btn-info btn-sm shoppingcart">
-       <i class="fa fa-shopping-cart" aria-hidden="true"></i> GOOUT
+       
+       <i class="fa fa-shopping-cart" aria-hidden="true"></i> ${data.length}
       </a>
      </nav>
     </div>`
