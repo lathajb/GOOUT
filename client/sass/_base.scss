@@ -1,18 +1,35 @@
-
 body {
     background-color: #522a4a;
     margin: 0;
     font-family: 'Roboto';
     font-size: 16px;
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    //height: 100vh;
     justify-content: center;
 
 }
 
+main{
+    #cart-conatiner{
+        .table {
+            background-color: #f8f9fa;
+            a{
+                text-decoration: underline;
+            }
+        }
+        .descriptionlist{
+            background-color: #f8f9fa;
+        }
+    } 
+}
+
 footer{
     background-color: #f8f9fa;
+}
+
+.btn-info {
+    background-color: #6f2e4c
 }
 

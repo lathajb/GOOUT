@@ -2,37 +2,24 @@ import './client/sass/styles.scss';
 import './node_modules/jquery/dist/jquery.min.js'
 import './node_modules/bootstrap/dist/js/bootstrap.min.js'
 
+import './node_modules/font-awesome/scss/font-awesome.scss';
+import {createHeaderSection} from './client/pages/header/shopping-header.controller.js';
+import {createFooterSection} from './client/pages/footer/shopping-footer.controller.js';
+
+import {createCaurocelComponent,caurocelConfig}  from './client/pages/caurocel/shopping-caurocel.controller.js';
+
 console.log("hello i am from index.js.....");
 
-window.onload = codeAddress;
+//window.onload = onShoppingHomePageload();
+window.addEventListener("load", onShoppingHomePageload);
 
-function codeAddress(){
-    var
-    carousel = document.querySelector('.carousel'),
-    figure = carousel.querySelector('figure'),
-    nav = carousel.querySelector('nav'),
-    numImages = figure.childElementCount,
-    theta =  2 * Math.PI / numImages,
-    currImage = 0
-;
+function onShoppingHomePageload(){
+    createHeaderSection("#shopping-header");
+    createCaurocelComponent("#shopping-main");
+    caurocelConfig();
+    createFooterSection("#shopping-footer");
     
-nav.addEventListener('click', onClick, true);
+}
+    
 
-function onClick(e) {
-    e.stopPropagation();
-    
-    var t = e.target;
-    if (t.tagName.toUpperCase() != 'SPAN')
-        return;
-    
-    if (t.classList.contains('next')) {
-        currImage++;
-    }
-    else {
-        currImage--;
-    }
-    
-    figure.style.transform = `rotateY(${currImage * -theta}rad)`;
-}
-}
 

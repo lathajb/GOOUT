@@ -20,7 +20,7 @@ module.exports = {
             ]
           },
           {
-            test: /\.(sass|scss)$/,
+            test: /\.(sass|scss)$/, 
             use: [{
                 loader: "style-loader" // creates style nodes from JS strings
             }, {
@@ -28,9 +28,41 @@ module.exports = {
             }, {
                 loader: "sass-loader" // compiles Sass to CSS
             }]
-          }
-      ]
-  },
+          },
+          {
+            test: /\.css$/,
+            loader: 'style-loader!css-loader?sourceMap'
+          }, {
+            test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+            loader: "url-loader?limit=10000&mimetype=application/font-woff"
+          }, {
+            test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+            loader: "url-loader?limit=10000&mimetype=application/font-woff"
+          }, {
+            test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+            loader: "url-loader?limit=10000&mimetype=application/octet-stream"
+          }, {
+            test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+            loader: "file-loader"
+          }, {
+            test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+            loader: "url-loader?limit=10000&mimetype=image/svg+xml"
+          }, 
+          {
+            test: /\.(jpe?g|png|gif|svg|jpg)$/,
+             use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'img/',
+                        publicPath: 'img/'
+                    }
+                }
+            ]
+        }
+       ]// rules ends here
+     },
   plugins: [  // Array of plugins to apply to build chunk
       new HtmlWebpackPlugin({
           template:  './index.html',

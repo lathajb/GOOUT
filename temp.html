@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Welcome to GOOUT</title>
+    
+</head>
+<body>
+    
+    <div id="main" class="main container">
+    <div id="carouselcontainer" class="container">
+        <div row>   
+            <div class="carousel">
+                <figure class="carouselfigure">
+                  <img src="./client/images/caurocel/c9.jpeg" alt="">
+                  <img src="./client/images/caurocel/c2.jpeg" alt="">
+                  <img src="./client/images/caurocel/c3.jpeg" alt="">
+                  <img src="./client/images/caurocel/c4.jpeg" alt="">
+                  <img src="./client/images/caurocel/c5.jpeg" alt="">
+                  <img src="./client/images/caurocel/c6.jpeg" alt="">
+                  <img src="./client/images/caurocel/c7.jpeg" alt="">
+                  <img src="./client/images/caurocel/c8.jpeg" alt="">
+                </figure>
+                <nav id="carouselnav" class="carouselnav">
+                     <button class="nav prev"><span class="prev carousel-control-prev-icon"></span></button>
+                     <button class="nav next"><span class="next carousel-control-next-icon"></span></button>
+                </nav>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="itemssection" class="itemssection">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img class="card-img-top" src="./client/images/women/5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                     <div class="card">
+                        <img class="card-img-top" src="./client/images/women/5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                     <div class="card">
+                        <img class="card-img-top" src="./client/images/women/5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                     <div class="card">
+                        <img class="card-img-top" src="./client/images/women/5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+    </div>
+   </div> <!-- main ends here-->
+    
+   <div class="footersection fixed-bottom">
+        <footer>Footer</footer>
+   </div>
+
+</body>
+</html>
+
+
+
+
+
+
+//------------------------------------------------
+
+import './client/sass/styles.scss';
+import './node_modules/jquery/dist/jquery.min.js'
+import './node_modules/bootstrap/dist/js/bootstrap.min.js'
+
+import './node_modules/font-awesome/scss/font-awesome.scss';
+import {createHeaderSection} from './client/pages/header/shopping-header.controller.js'
+
+console.log("hello i am from index.js.....");
+
+//window.onload = onShoppingHomePageload();
+window.addEventListener("load", onShoppingHomePageload);
+
+function onShoppingHomePageload(){
+    createHeaderSection("#shopping-header");
+    // var
+    // carousel = document.querySelector('.carousel'),
+    // figure = carousel.querySelector('figure'),
+    // nav = carousel.querySelector('nav'),
+    // numImages = figure.childElementCount,
+    // theta =  2 * Math.PI / numImages,
+    // currImage = 0
+;
+
+
+// // carousel section
+// nav.addEventListener('click', onClickCarousel, true);
+
+// function onClickCarousel(e) {
+//     e.stopPropagation();
+//     var t = e.target;
+//     if (t.tagName.toUpperCase() != 'SPAN')
+//         return;
+    
+//     if (t.classList.contains('next')) {
+//         currImage++;
+//     }
+//     else {
+//         currImage--;
+//     }
+//     figure.style.transform = `rotateY(${currImage * -theta}rad)`;
+// }
+}
+
