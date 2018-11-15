@@ -1,0 +1,48 @@
+{
+    "items":[{
+        "ethinic-wear": [
+            {
+                "idescription":"Long kurtha",
+                "imrp":500,
+                "iimg":"",
+                "isize":"L"
+            },
+            {
+                "idescription":"saree",
+                "imrp":500,
+                "iimg":"",
+                "isize":"M"
+            }
+        ],
+        "formal-wear": [
+            {
+                "idescription":"Long kurtha",
+                "imrp":500,
+                "iimg":"",
+                "isize":"M"
+            },
+            {
+                "idescription":"saree",
+                "imrp":500,
+                "iimg":"",
+                "isize":"M"
+            }
+        ],
+        "casual-wear": [
+            {
+                "idescription":"Long kurtha",
+                "imrp":500,
+                "iimg":"",
+                "isize":"M"
+            },
+            {
+                "idescription":"saree",
+                "imrp":500,
+                "iimg":"",
+                "isize":"M"
+            }
+        ]
+    }]
+
+
+}

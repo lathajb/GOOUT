@@ -1,4 +1,6 @@
 import './client/sass/styles.scss';
+import './node_modules/jquery/dist/jquery.min.js'
+import './node_modules/bootstrap/dist/js/bootstrap.min.js'
 
 console.log("hello i am from index.js.....");
 
@@ -20,7 +22,7 @@ function onClick(e) {
     e.stopPropagation();
     
     var t = e.target;
-    if (t.tagName.toUpperCase() != 'BUTTON')
+    if (t.tagName.toUpperCase() != 'SPAN')
         return;
     
     if (t.classList.contains('next')) {

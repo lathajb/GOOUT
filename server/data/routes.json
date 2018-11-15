@@ -1,0 +1,8 @@
+
+{
+  "/items/list": "/items",
+  "/items/get/:id": "/items/:id",
+  "/items/create": "/items",
+  "/items/update/:id": "/items/:id",
+  "/items/delete/:id": "/items/:id"
+}
