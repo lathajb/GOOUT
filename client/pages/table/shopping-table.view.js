@@ -3,7 +3,7 @@ import { htmlToTemplate } from "../util/shopping-home.utility"
 export const getTableHtml = (itemsList,totalAmount) => {
     const tableHtml = `
     <div class="container">
-        <div class="row col-12 heading-section">
+        <div class="row col-12 cart-heading-section">
                 <div class="col-9 col-md-9 bold">ITEM</div>
                 <div class="col-1 col-md-1 bold">SIZE</div>
                 <div class="col-1 col-md-1 bold">QTY</div>
@@ -18,17 +18,29 @@ export const getTableHtml = (itemsList,totalAmount) => {
                     <img src="${item.img}" class="alignleft" alt="item image" width="40%" height="50%">
                     <span class="bold font-size">${item.description}</span>
                     <p class="font-size remove-padding-margin">Style #: ${item.style} </p> 
-                    <p class="font-size ">Color : ${item.color} </p>   
+                    <p class="font-size remove-padding-margin">Color : ${item.color} </p>
+                    <p class="sizeTag text-left">
+                        <span class="font-size">Size:</span>
+                        <span class="font-size">${item.size}</span> 
+                    </p>
+                    <p class="sizeTag text-left">
+                      <span class="font-size">Qty:</span>
+                      <span class="font-size bold">${item.qty}</span>
+                    </p>
+                    <p class="sizeTag text-center">
+                      <span class="font-size bold">$${item.imrp}.00</span>
+                    </p>
                 </div>
                 
-                <div class="col-12 col-md-1 text-center">
-                    <span >${item.size}</span>
-                </div>
-                <div class="col-12 col-md-1 text-center">
-                    <span>${item.qty}</span>
+                <div class="col-12 col-md-1 text-center desktop-size">
+                    <span class="font-size">${item.size}</span> 
                 </div>
                 
-                <div class="col-12 col-md-1 text-center">
+                <div class="col-12 col-md-1 text-center desktop-size">
+                    <span class="font-size">${item.qty}</span>
+                </div>
+                
+                <div class="col-12 col-md-1 text-center desktop-size">
                     <span class="col-1 bold">$${item.imrp}</span>
                 </div>
             </div>

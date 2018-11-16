@@ -153,9 +153,51 @@ img{
     text-decoration: underline;
 }
 
-
-
-
-@media only screen and (max-width: 480px) {
-    
+.itemsList{
+    .data-section{
+        .itemquantity-txt{
+            width:20%;
+        }
+        .sizeTag{
+            display :none;
+            margin-bottom:0px;
+        }
+        .desktop-size{
+          display: block;
+        }
+    }
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightpink
+    }
+    
+    
+
+    .container {
+        .cart-heading-section{
+            display :none;
+        }
+        .leftSection { 
+         display: none; 
+        }
+
+        .itemsList{
+             .data-section{
+                .sizeTag{
+                    display :block;
+                    margin-bottom:0px;
+                }
+                .desktop-size{
+                    display: none;
+                }
+             }
+        }
+
+    }
+}
+
