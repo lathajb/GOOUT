@@ -11,7 +11,6 @@ export default class ShoppingCartService{
                 method: "GET", 
                 mode: "cors", 
                 credentials: "same-origin", 
-                
             })
             .then(response => response.json()) 
             .catch(error => console.error(`Fetch Error =\n`, error));

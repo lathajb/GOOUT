@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Roboto';
     font-size: 16px;
-    margin-top: 10%;
+    margin-top: 17%;
     display: flex;
     flex-direction: column;
     //height: 100vh;
@@ -23,7 +23,7 @@ main{
                 border-top: 0px;
             }
             .amount-font{
-               font-size: 17px; 
+               font-size: 19px; 
                border-top: solid 1px #c1b4b4;  
             }
             .security-lock{
@@ -68,8 +68,7 @@ main{
         
         .security-lock{
                 color: darkgoldenrod;
-                padding-right: 10px;
-                font-size: 11px; 
+                font-size: 15px; 
             }
         
     }
@@ -81,7 +80,7 @@ footer{
 }
 
 .btn-info {
-    background-color: #6f2e4c
+    background-color: #6f2e4c;
 }
 
 .bold{
@@ -103,6 +102,10 @@ footer{
 .add-margin{
     margin-bottom:10px;
 }
+
+.add-padding{
+    padding:8px;
+}
 hr{
     display: block;
     margin-top: 0.5em;
@@ -122,5 +125,37 @@ hr{
     margin-bottom:0px;
 }
 
+img{
+ max-width: 100%;
+ height: auto;
+ float: left;
+ padding-right : 10px;
+ .alignleft { float: left; }
+}
+.menu-separator{
+    border-right-style: solid;
+    border-right-color:#c4bdc2;
+    border-right-width: 0.1rem;
+}
+
+.actions-section{
+    margin-top:20px;
+}
+
+.firstcolor{
+    background-color: yellow;
+}
+.secondcolor{
+    background-color: green;
+}
+
+.underline{
+    text-decoration: underline;
+}
 
 
+
+
+@media only screen and (max-width: 480px) {
+    
+}

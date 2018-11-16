@@ -7,7 +7,7 @@ export const getShoppingCart = () => {
                
                 <img src="./client/images/women/goout-logo.png" width="60" height="40" class="d-inline-block align-top" alt="">
                 
-                <span class="display-4 bold text-justify">Cart Items
+                <span class="display-5 bold text-justify">Cart Items
                     <hr class="my-4">
                 </span>
                

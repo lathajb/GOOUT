@@ -1,60 +1,60 @@
 {
     "items":[
             {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
-                "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "description":"CHECKED BOXY FIT BLAZER",
+                "style":"N5HKUI4656",
+                "color":"Red",
+                "imrp":1000,
+                "img":"./client/images/caurocel/c2.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"2"
             },
              {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
+                "description":"CROPPED HIGH WAISTED JEANS",
+                "style":"N5HKUI4676",
+                "color":"Blue",
                 "imrp":500,
                 "img":"./client/images/caurocel/c9.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"4"
             }
         ,       
              {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
-                "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "description":"POTRIAT PRINTED SWEATER",
+                "style":"N5HKUI4632",
+                "color":"Dark grey",
+                "imrp":950,
+                "img":"./client/images/caurocel/c5.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"2"
             },
             {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
-                "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "description":"HIGH SKIRT",
+                "style":"MMJJN5HKUI",
+                "color":"Grey",
+                "imrp":750,
+                "img":"./client/images/caurocel/c10.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"1"
             },
        
              {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
-                "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "description":"OFF WHITE SHIRT",
+                "style":"N5HKUI4653",
+                "color":"White",
+                "imrp":1000,
+                "img":"./client/images/caurocel/c4.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"4"
             },
              {
-                "description":"SOLID GREEN COTTON T SHIRT",
-                "style":"",
-                "color":"GREEN",
-                "imrp":500,
-                "img":"./client/images/caurocel/c9.jpeg",
+                "description":"ROSW JACQUARD VOLUMINOUS SLEEVE SILK BLOUSE", 
+                "style":"N5HKUI4656",
+                "color":"Dark blue",
+                "imrp":200,
+                "img":"./client/images/caurocel/c6.jpeg",
                 "size":"L",
-                "qty":""
+                "qty":"2"
             }
         ]
     
